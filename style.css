@@ -1,0 +1,148 @@
+
+
+body{
+    background-color: rgb(227, 229, 229);
+    overflow-y: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+}
+
+.profile-card{
+    align-self: center;
+    border-radius: 10%;
+    background-color: rgb(248, 244, 244);
+    font-family: 'Rubik', sans-serif;
+    height: 40vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    height:max-content;
+    box-shadow: 10px 10px 5px rgb(214, 216, 216);
+    border:2px #ed0c5b;
+    border-style:solid;
+}
+
+.image{
+    margin-top: 15px;
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit:cover;
+    box-shadow: 10px 10px 5px rgb(214, 216, 216);
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+button{
+    background-color: white;
+    border: none;
+    font-size: larger;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(214, 216, 216);
+    font-weight:600;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transition-property:all;
+}
+.button1{
+    color: #316ff6;
+}
+.button2{
+    color: red;
+}
+
+.button1:hover{
+    background-color: #316ff6;
+    color: white;
+    
+}
+.button2:hover{
+    background-color: red;
+    color: white;
+}
+
+.number{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number div{
+    border-right: 1px solid rgb(198, 195, 195);
+    padding:0px 10px;
+    display: flex;
+    gap: 15px;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.number div:last-child{
+    border: none;
+}
+
+.gg-youtube{
+    color: red;
+    height:px;
+}
+
+.gg-facebook{
+    color: #316ff6;
+}
+
+.gg-twitter{
+    color: #26a7de;
+}
+
+.gg-instagram{
+    color:#405de6;
+}
+
+.gg-heart{
+    color:#ef4256;
+}
+
+.gg-user-add{
+    color: #26a7de;
+}
+
+.gg-share{
+    color:#25D366;
+}
+
