@@ -44,6 +44,11 @@ body{
     border: 3px solid white;
     object-fit:cover;
     box-shadow: 10px 10px 5px rgb(214, 216, 216);
+    transition: all 200ms ease-in-out;
+}
+
+.image img:hover{
+    transform: scale(1.05);
 }
 
 .text{
@@ -76,8 +81,7 @@ button{
     box-shadow: 10px 10px 5px rgb(214, 216, 216);
     font-weight:600;
     cursor: pointer;
-    transition-duration: 0.4s;
-    transition-property:all;
+    transition:all 0.4s ease-in-out
 }
 .button1{
     color: #316ff6;
@@ -89,11 +93,12 @@ button{
 .button1:hover{
     background-color: #316ff6;
     color: white;
-    
+    transform: scale(1.1);
 }
 .button2:hover{
     background-color: red;
     color: white;
+    transform: scale(1.1);
 }
 
 .number{
